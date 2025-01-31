@@ -1,1 +1,288 @@
 Hi, this is my Data Viz portfolio
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="700">
+    <rect width="1500" height="700" x="0" y="0" fill="#FFFFFF" id="background" />
+    <g id="series">
+        <g transform="translate(0,0)">
+            <g transform="translate(50,50)" clip-path="url(#serieClipPath)">
+                <g id="axis">
+                    <g transform="translate(0,600)" fill="none" font-size="10" font-family="sans-serif"
+                        text-anchor="middle">
+                        <path class="domain" stroke="currentColor" d="M0,6V0H1400V6" />
+                        <g class="tick" opacity="1" transform="translate(0,0)">
+                            <line stroke="currentColor" y2="6" /><text fill="currentColor" y="9" dy="0.71em">0</text>
+                        </g>
+                        <g class="tick" opacity="1" transform="translate(200,0)">
+                            <line stroke="currentColor" y2="6" /><text fill="currentColor" y="9" dy="0.71em">50</text>
+                        </g>
+                        <g class="tick" opacity="1" transform="translate(400,0)">
+                            <line stroke="currentColor" y2="6" /><text fill="currentColor" y="9" dy="0.71em">100</text>
+                        </g>
+                        <g class="tick" opacity="1" transform="translate(600,0)">
+                            <line stroke="currentColor" y2="6" /><text fill="currentColor" y="9" dy="0.71em">150</text>
+                        </g>
+                        <g class="tick" opacity="1" transform="translate(800,0)">
+                            <line stroke="currentColor" y2="6" /><text fill="currentColor" y="9" dy="0.71em">200</text>
+                        </g>
+                        <g class="tick" opacity="1" transform="translate(1000,0)">
+                            <line stroke="currentColor" y2="6" /><text fill="currentColor" y="9" dy="0.71em">250</text>
+                        </g>
+                        <g class="tick" opacity="1" transform="translate(1200,0)">
+                            <line stroke="currentColor" y2="6" /><text fill="currentColor" y="9" dy="0.71em">300</text>
+                        </g>
+                        <g class="tick" opacity="1" transform="translate(1400,0)">
+                            <line stroke="currentColor" y2="6" /><text fill="currentColor" y="9" dy="0.71em">350</text>
+                        </g><text x="1400" dy="-5" text-anchor="end"
+                            style="font-family: Arial, sans-serif; font-size: 12px; fill: rgb(123, 123, 123); font-weight: bold;">Episodes</text>
+                    </g>
+                    <g fill="none" font-size="10" font-family="sans-serif" text-anchor="end">
+                        <path class="domain" stroke="currentColor" d="M-6,600H0V0H-6" />
+                        <g class="tick" opacity="1" transform="translate(0,600)">
+                            <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9"
+                                dy="0.32em">4.0</text>
+                        </g>
+                        <g class="tick" opacity="1" transform="translate(0,550)">
+                            <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9"
+                                dy="0.32em">4.5</text>
+                        </g>
+                        <g class="tick" opacity="1" transform="translate(0,500)">
+                            <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9"
+                                dy="0.32em">5.0</text>
+                        </g>
+                        <g class="tick" opacity="1" transform="translate(0,450)">
+                            <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9"
+                                dy="0.32em">5.5</text>
+                        </g>
+                        <g class="tick" opacity="1" transform="translate(0,400)">
+                            <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9"
+                                dy="0.32em">6.0</text>
+                        </g>
+                        <g class="tick" opacity="1" transform="translate(0,350)">
+                            <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9"
+                                dy="0.32em">6.5</text>
+                        </g>
+                        <g class="tick" opacity="1" transform="translate(0,300)">
+                            <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9"
+                                dy="0.32em">7.0</text>
+                        </g>
+                        <g class="tick" opacity="1" transform="translate(0,250)">
+                            <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9"
+                                dy="0.32em">7.5</text>
+                        </g>
+                        <g class="tick" opacity="1" transform="translate(0,200)">
+                            <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9"
+                                dy="0.32em">8.0</text>
+                        </g>
+                        <g class="tick" opacity="1" transform="translate(0,150)">
+                            <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9"
+                                dy="0.32em">8.5</text>
+                        </g>
+                        <g class="tick" opacity="1" transform="translate(0,100)">
+                            <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9"
+                                dy="0.32em">9.0</text>
+                        </g>
+                        <g class="tick" opacity="1" transform="translate(0,50)">
+                            <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9"
+                                dy="0.32em">9.5</text>
+                        </g>
+                        <g class="tick" opacity="1" transform="translate(0,0)">
+                            <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9"
+                                dy="0.32em">10.0</text>
+                        </g><text x="4" text-anchor="start" dominant-baseline="hanging"
+                            style="font-family: Arial, sans-serif; font-size: 12px; fill: rgb(123, 123, 123); font-weight: bold;">Final_Season_Rating</text>
+                    </g>
+                </g>
+                <g id="viz">
+                    <g>
+                        <circle cx="1308" cy="380" fill="rgb(255, 175, 37)" r="50" stroke="white" />
+                    </g>
+                    <g>
+                        <circle cx="832" cy="440" fill="rgb(42, 222, 186)" r="40" stroke="white" />
+                    </g>
+                    <g>
+                        <circle cx="804" cy="320" fill="rgb(224, 66, 18)" r="39" stroke="white" />
+                    </g>
+                    <g>
+                        <circle cx="708" cy="450" fill="rgb(190, 36, 9)" r="37" stroke="white" />
+                    </g>
+                    <g>
+                        <circle cx="728" cy="420" fill="rgb(208, 230, 55)" r="37" stroke="white" />
+                    </g>
+                    <g>
+                        <circle cx="500" cy="80" fill="rgb(128, 253, 92)" r="31" stroke="white" />
+                    </g>
+                    <g>
+                        <circle cx="484" cy="250" fill="rgb(60, 241, 151)" r="30" stroke="white" />
+                    </g>
+                    <g>
+                        <circle cx="368" cy="50" fill="rgb(90, 251, 119)" r="27" stroke="white" />
+                    </g>
+                    <g>
+                        <circle cx="384" cy="390" fill="rgb(73, 92, 225)" r="27" stroke="white" />
+                    </g>
+                    <g>
+                        <circle cx="320" cy="60" fill="rgb(169, 246, 71)" r="25" stroke="white" />
+                    </g>
+                    <g>
+                        <circle cx="320" cy="430" fill="rgb(144, 12, 0)" r="25" stroke="white" />
+                    </g>
+                    <g>
+                        <circle cx="292" cy="580" fill="rgb(44, 164, 242)" r="24" stroke="white" />
+                    </g>
+                    <g>
+                        <circle cx="312" cy="370" fill="rgb(37, 196, 218)" r="24" stroke="white" />
+                    </g>
+                    <g>
+                        <circle cx="248" cy="10" fill="rgb(71, 56, 158)" r="22" stroke="white" />
+                    </g>
+                    <g>
+                        <circle cx="252" cy="30" fill="rgb(35, 23, 27)" r="22" stroke="white" />
+                    </g>
+                    <g>
+                        <circle cx="240" cy="120" fill="rgb(255, 139, 31)" r="21" stroke="white" />
+                    </g>
+                    <g>
+                        <circle cx="240" cy="40" fill="rgb(158, 16, 1)" r="21" stroke="white" />
+                    </g>
+                    <g>
+                        <circle cx="212" cy="60" fill="rgb(250, 102, 25)" r="20" stroke="white" />
+                    </g>
+                    <g>
+                        <circle cx="156" cy="50" fill="rgb(240, 205, 44)" r="17" stroke="white" />
+                    </g>
+                    <g>
+                        <circle cx="48" cy="20" fill="rgb(59, 129, 248)" r="10" stroke="white" />
+                    </g>
+                    <g id="labels">
+                        <g transform="translate(1308,380)"><text x="0" y="0" text-anchor="middle"
+                                dominant-baseline="text-before-edge" transform="translate(0,-5.599999904632568)">
+                                <tspan x="0" y="0" dy="0"
+                                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold;">
+                                    Supernatural</tspan>
+                            </text></g>
+                        <g transform="translate(832,440)"><text x="0" y="0" text-anchor="middle"
+                                dominant-baseline="text-before-edge" transform="translate(0,-5.599999904632568)">
+                                <tspan x="0" y="0" dy="0"
+                                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold;">
+                                    How I Met Your Mother</tspan>
+                            </text></g>
+                        <g transform="translate(804,320)"><text x="0" y="0" text-anchor="middle"
+                                dominant-baseline="text-before-edge" transform="translate(0,-5.599999904632568)">
+                                <tspan x="0" y="0" dy="0"
+                                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold;">
+                                    The Office</tspan>
+                            </text></g>
+                        <g transform="translate(708,450)"><text x="0" y="0" text-anchor="middle"
+                                dominant-baseline="text-before-edge" transform="translate(0,-5.599999904632568)">
+                                <tspan x="0" y="0" dy="0"
+                                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold;">
+                                    The Walking Dead</tspan>
+                            </text></g>
+                        <g transform="translate(728,420)"><text x="0" y="0" text-anchor="middle"
+                                dominant-baseline="text-before-edge" transform="translate(0,-5.599999904632568)">
+                                <tspan x="0" y="0" dy="0"
+                                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold;">
+                                    Scrubs</tspan>
+                            </text></g>
+                        <g transform="translate(500,80)"><text x="0" y="0" text-anchor="middle"
+                                dominant-baseline="text-before-edge" transform="translate(0,-5.599999904632568)">
+                                <tspan x="0" y="0" dy="0"
+                                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold;">
+                                    Parks and Recreation</tspan>
+                            </text></g>
+                        <g transform="translate(484,250)"><text x="0" y="0" text-anchor="middle"
+                                dominant-baseline="text-before-edge" transform="translate(0,-5.599999904632568)">
+                                <tspan x="0" y="0" dy="0"
+                                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold;">
+                                    Lost</tspan>
+                            </text></g>
+                        <g transform="translate(368,50)"><text x="0" y="0" text-anchor="middle"
+                                dominant-baseline="text-before-edge" transform="translate(0,-5.599999904632568)">
+                                <tspan x="0" y="0" dy="0"
+                                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold;">
+                                    Mad Men</tspan>
+                            </text></g>
+                        <g transform="translate(384,390)"><text x="0" y="0" text-anchor="middle"
+                                dominant-baseline="text-before-edge" transform="translate(0,-5.599999904632568)">
+                                <tspan x="0" y="0" dy="0"
+                                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold;">
+                                    Dexter</tspan>
+                            </text></g>
+                        <g transform="translate(320,60)"><text x="0" y="0" text-anchor="middle"
+                                dominant-baseline="text-before-edge" transform="translate(0,-5.599999904632568)">
+                                <tspan x="0" y="0" dy="0"
+                                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold;">
+                                    Schitt's Creek</tspan>
+                            </text></g>
+                        <g transform="translate(320,430)"><text x="0" y="0" text-anchor="middle"
+                                dominant-baseline="text-before-edge" transform="translate(0,-5.599999904632568)">
+                                <tspan x="0" y="0" dy="0"
+                                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold;">
+                                    True Blood</tspan>
+                            </text></g>
+                        <g transform="translate(292,580)"><text x="0" y="0" text-anchor="middle"
+                                dominant-baseline="text-before-edge" transform="translate(0,-5.599999904632568)">
+                                <tspan x="0" y="0" dy="0"
+                                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold;">
+                                    Game of Thrones</tspan>
+                            </text></g>
+                        <g transform="translate(312,370)"><text x="0" y="0" text-anchor="middle"
+                                dominant-baseline="text-before-edge" transform="translate(0,-5.599999904632568)">
+                                <tspan x="0" y="0" dy="0"
+                                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold;">
+                                    Heroes</tspan>
+                            </text></g>
+                        <g transform="translate(248,10)"><text x="0" y="0" text-anchor="middle"
+                                dominant-baseline="text-before-edge" transform="translate(0,-5.599999904632568)">
+                                <tspan x="0" y="0" dy="0"
+                                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold;">
+                                    Breaking Bad</tspan>
+                            </text></g>
+                        <g transform="translate(252,30)"><text x="0" y="0" text-anchor="middle"
+                                dominant-baseline="text-before-edge" transform="translate(0,-5.599999904632568)">
+                                <tspan x="0" y="0" dy="0"
+                                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold;">
+                                    Better Call Saul</tspan>
+                            </text></g>
+                        <g transform="translate(240,120)"><text x="0" y="0" text-anchor="middle"
+                                dominant-baseline="text-before-edge" transform="translate(0,-5.599999904632568)">
+                                <tspan x="0" y="0" dy="0"
+                                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold;">
+                                    The Crown</tspan>
+                            </text></g>
+                        <g transform="translate(240,40)"><text x="0" y="0" text-anchor="middle"
+                                dominant-baseline="text-before-edge" transform="translate(0,-5.599999904632568)">
+                                <tspan x="0" y="0" dy="0"
+                                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold;">
+                                    The Wire</tspan>
+                            </text></g>
+                        <g transform="translate(212,60)"><text x="0" y="0" text-anchor="middle"
+                                dominant-baseline="text-before-edge" transform="translate(0,-5.599999904632568)">
+                                <tspan x="0" y="0" dy="0"
+                                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold;">
+                                    The Good Place</tspan>
+                            </text></g>
+                        <g transform="translate(156,50)"><text x="0" y="0" text-anchor="middle"
+                                dominant-baseline="text-before-edge" transform="translate(0,-5.599999904632568)">
+                                <tspan x="0" y="0" dy="0"
+                                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold;">
+                                    Succession</tspan>
+                            </text></g>
+                        <g transform="translate(48,20)"><text x="0" y="0" text-anchor="middle"
+                                dominant-baseline="text-before-edge" transform="translate(0,-5.599999904632568)">
+                                <tspan x="0" y="0" dy="0"
+                                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold;">
+                                    Fleabag</tspan>
+                            </text></g>
+                    </g>
+                </g>
+            </g><text y="4" x="4"
+                style="font-family: Arial, sans-serif; font-size: 12px; fill: black; font-weight: bold; dominant-baseline: hanging;" />
+        </g>
+    </g>
+    <g id="grid">
+        <rect x="0" y="0" width="1500" height="700" fill="none" stroke="#ccc" />
+    </g>
+    <clipPath id="serieClipPath">
+        <rect x="-50" y="-50" width="1500" height="700" />
+    </clipPath>
+</svg>
